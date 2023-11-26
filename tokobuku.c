@@ -11,7 +11,18 @@ struct tokobuku {
 };
 
 int main() {
+    //inisialisasi struct 
     struct tokobuku buku1 = {"Negeri 5 Menara", "Ahmad Fuadi", 2009, 29000};
+    struct tokobuku buku2 = {};
+    struct tokobuku buku3 = {};
+    struct tokobuku buku4 = {};
+    struct tokobuku buku5 = {};
+    struct tokobuku buku6 = {};
+    struct tokobuku buku7 = {};
+    struct tokobuku buku8 = {};
+    struct tokobuku buku9 = {};
+    struct tokobuku buku10 = {};
+    
 
     printf("Buku 1\n");
     printf("Judul buku  : %s\n", buku1.judul); // Use %s for strings
